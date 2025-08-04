@@ -1,5 +1,5 @@
 [project]
-name = "llm_snippets"
+name = "LLMsandbox"
 version = "0.1.0"
 description = "A set of classes/utilities for LLM data exploration."
 authors = [
