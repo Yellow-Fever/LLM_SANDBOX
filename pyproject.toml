@@ -1,5 +1,5 @@
 [project]
-name = "LLMsandbox"
+name = "llmsandbox"
 version = "0.1.0"
 description = "A set of classes/utilities for LLM data exploration."
 authors = [
@@ -11,5 +11,8 @@ dependencies = [
 ]
 
 [build-system]
-requires = ""
-build-backend = ""
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+llmsandbox = "llmsandbox.__main__:main"
