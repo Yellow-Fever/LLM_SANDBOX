@@ -1,0 +1,1 @@
+# Class to handle a text corpus preprocessor, with logging.
