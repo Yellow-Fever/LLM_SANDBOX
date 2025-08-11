@@ -3,4 +3,5 @@ import argparse
 ### script arguments
 
 def getScriptArguments():
-    print("this is the argument puller")
+    globalParser = argparse.ArgumentParser()
+    subparsers = globalParser.add_subparsers(title="sandbox apps")
